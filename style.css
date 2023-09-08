@@ -1700,17 +1700,18 @@ footer{
     color: rgba(249, 250, 251, 1);
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 800;
     /* line-height: 31px; */
     letter-spacing: -0.015em;
     margin-bottom: 24px;
     text-align: left;
 }
 .ft-flex1-col img {
-    width: 40%;
+    width: 45%;
     margin-bottom: 24px;
 }
 .col-content{
+    width: 100%;
     color: rgba(249, 250, 251, 1);
     display: flex;
     flex-direction: column;
@@ -1724,7 +1725,7 @@ footer{
 .col-content p {
     line-height: 24px;
     cursor: pointer;
-    font-weight: 500;
+    font-weight: 400;
     transition: all ease-in-out 0.5s;
 }
 .col-content p:hover{
@@ -1734,6 +1735,9 @@ footer{
 .col-content a {
     text-decoration: none;
     color: rgba(249, 250, 251, 1);
+}
+.ft-sm {
+    width: 100%;
 }
 .ft-sm img {
     cursor: pointer;
@@ -1763,6 +1767,7 @@ footer{
 }
 
 
+/* Responsiveness */
 @media (max-width:768px) {
     /* Hero-section */
     header {
@@ -1780,7 +1785,8 @@ footer{
         height: 100vh;
     }
     .sub-sec {
-        background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.92));
+        background: linear-gradient(rgba(0,0,0,0.92), rgba(0,0,0,0.92));
+        position: fixed;
     }
     nav {
         width: 100%;
@@ -1808,7 +1814,7 @@ footer{
         margin: auto;
     }
     .try-col h1 {
-        font-size: 24px;
+        font-size: 20px;
         line-height: 33px;
         letter-spacing: -0.025em;
     }
@@ -1852,18 +1858,16 @@ footer{
     }
     .plat-img-zouse {
         width: 100%;
-        height: 38vh;
-        background-size: cover;
-        background-position: center;
+        height: 40vh;
         margin-bottom: 24px;
     }
     .plat-img-halal {
         width: 100%;
-        height: 38vh;
+        height: 40vh;
         /* margin-bottom: ; */
     }
     .zousetext, .halaltext {
-        margin-top: 30px;
+        margin-top: 20px;
     }
     .zousetext p, .halaltext p {
         font-size: 15px;
@@ -1936,7 +1940,7 @@ footer{
 
     /* Platform Page... */
     .plat-hero p {
-        font-size: 30px;
+        font-size: 25px;
     }
     .zouse, .pf, .tub, .halal {
         flex-direction: column;
@@ -1948,6 +1952,9 @@ footer{
     .pla {
         width: 100%;
         margin-bottom: 10px;
+    }
+    .inc {
+        width: 50%;
     }
     .zouse {
         margin-bottom: 0;
@@ -1982,6 +1989,9 @@ footer{
     }
     .earn-head, .year2022 {
         padding-left: 15px;
+    }
+    .year2022q {
+        padding: 0;
     }
     .year-grid {
         /* display: block; */
