@@ -1,2 +1,2 @@
-# swiftTech
-Yeah, a group project to develop Zeedlabs design - with JFStudios as team lead, Tomiwa and Elizabeth as group members and I - Swift Tech  -  Test-run....
+# SwiftTech
+ Development of Zeedlabs Website alongside with my team(SwiftTech)
